@@ -30,7 +30,7 @@ h3{
     line-height: 1rem;
 }
 main{
-    background-image: url(/img/background_small.jpg);
+    background-image: url(img/background_small.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
