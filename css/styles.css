@@ -1,0 +1,142 @@
+*{
+
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #f0f0f0;
+    margin: 0;
+}
+small{
+    color: #f0f0f099;
+}
+a{
+    text-decoration: none;
+    color: #dddddd;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-family: 'Francois One', sans-serif;
+    letter-spacing: .2rem;
+    font-size: 2.2rem;
+}
+
+h3{
+    font-weight: 300;
+    font-size: .8rem;
+    font-style: italic;
+    line-height: 1rem;
+}
+main{
+    background-image: url(/img/background_small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 500px;
+}
+.nav{
+    background-color: #33333399;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.nav__logo{
+    font-size: 2rem;
+    margin-right: 3px;
+}
+.nav__text{
+    text-align: center;
+}
+.nav ul{
+    display: none;
+}
+h2{
+    margin: 0;;
+}
+.showcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100%;
+    
+}
+.showcase__user{
+    display: flex;
+    justify-content: center;
+    font-size: .8rem;
+    align-items: center;
+    
+}
+.showcase__user__photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0%;
+
+}
+.showcase__user__photo img{
+    object-fit: contain;
+    object-position: top;
+    
+}
+.showcase__user__info{
+    font-size: .8rem;
+    font: italic ;
+    text-align: center;
+}
+.showcase__user__info div{
+    display: flex;
+}
+.showcase__email{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15%;
+}
+.showcase__input{
+    background-color:#f0f0f0;
+    padding: 5px;
+    border: none;
+    width: 66%;
+    outline: none;
+    text-align: center;
+    font-size: .9rem;
+}
+.showcase__button{
+    padding: 5px;
+    border: none;
+    background: #142838;
+    color: #f0f0f0;
+    font-family: 'Francois One', sans-serif;
+    width: 34%;
+}
+
+.showcase__search-flight{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 0 15%;
+}
+.showcase__search-flight>div{
+    width: 100%;
+    display: flex;
+    padding: 0 0 10px 0;
+    background: #cccccc99; 
+}
+.showcase__search-flight>input{
+    width: 100%;
+    border: none;
+    font-size: 1.5rem;
+    font-family: 'Francois One',sans-serif;
+    background: rgb(233, 233, 56);
+    color: #111;
+}

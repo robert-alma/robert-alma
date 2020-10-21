@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3b0003966b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main">
+        
+        <nav class="nav">
+            <div class="nav__logo">
+                <i class="fas fa-fighter-jet"></i>
+            </div>
+            <div class="nav__text">
+                <h1>Vonderim</h1>
+                
+            </div>
+            <ul>
+                <li>
+                    <i></i>
+                    <span>Planes & Book</span>
+                    <i></i>
+                </li>
+                <li>
+                    <i></i>
+                    <span>Ofertas Top</span>
+                    <i></i>
+                </li>
+                <li>
+                    <i></i>
+                    <span>Información & Servicios</span>
+                    <i></i>
+                </li>
+                <li>
+                    <i></i>
+                    <span>Millas y Más</span>
+                    <i></i>
+                </li>
+            </ul>
+        </nav>
+        <section class="showcase">
+            <div class="showcase__user">
+                <figure class="showcase__user__photo">
+                    <img src="/img/user-photo.jpg" alt="perfil de usuario">
+                </figure>    
+                <div class="showcase__user__info">
+                    <div>
+                       <i class="fas fa-crown"></i> 
+                       <span>Diana Sifuentes</span>
+                    </div>
+                    
+                    <a href=""><small>Cerrar Sesión</small></a>
+                </div>
+            </div>
+            <form action="" class="showcase__email">            
+                <label for="email"></label>
+                <input class="showcase__input" type="email" name="email" id="email" placeholder="Suscríbete a nuestra correspondencia">
+                <input class="showcase__button" type="submit" value="Suscribirse">
+            </form>
+            <h2>BUSCAR VUELO</h2>
+            <form action="" class="showcase__search-flight">
+                <div>
+                    
+                        <div class="showcase__button">
+                            <label for="location">Desde</label>
+                        </div>
+                        <input class="showcase__input" type="text" name="location" id="location" placeholder="Tu localización">
+                    
+                </div>
+                <div>
+                    
+                    <div class="showcase__button">
+                      <label for="destino">  
+                          Hacia</label>
+                    </div>
+                    <input class="showcase__input" type="text" name="destino" id="destino" placeholder="Tu destino">
+                
+                </div>
+                <div>                    
+                    <div class="showcase__button">
+                        <label for="fecha-de-partida"><i class="fas fa-calendar-alt"></i></label>  
+                    </div>
+                    <input class="showcase__input" type="date" name="fecha-de-partida" id="fecha-de-partida" placeholder="Fecha de partida">
+                    
+                </div>
+                <div>                    
+                    <div class="showcase__button">
+                        <label for="fecha-de-regreso"><i class="fas fa-calendar-alt"></i></label>
+                    </div>
+                    <input class="showcase__input" type="date" name="fecha-de-regreso" id="fecha-de-regreso" placeholder="Fecha de Regreso">
+                </div>
+                <div>                    
+                    <select name="numero-pasajes" id="numero-pasajes" class="showcase__input" >
+                        <option value="1">1 adulto</option>
+                        <option value="2">2 adulto</option>
+                        <option value="3">3 adulto</option>
+                        <option value="4">4 adulto</option>
+                    </select>
+                    <div class="showcase__button">
+                        <label for="numero-pasajes"><i class="fas fa-caret-down"></i></label>
+                    </div>                    
+                </div>
+                <div>                    
+                    <select name="clase" id="clase" class="showcase__input" >
+                        <option value="economica">Económica</option>
+                        <option value="vip">Vip</option>
+                        <option value="premium">Premium</option>
+                    </select>
+                    <div class="showcase__button">
+                        <label for="clase"><i class="fas fa-caret-down"></i></label>
+                    </div>                    
+                </div>
+                <div>                    
+                    <input class="showcase__radio-button" type="radio" id="round-trip" name="tipo-de-vuelo" value="round-trip">
+                    <label for="round-trip">Ida y Vuelta</label>                    
+                    <input class="showcase__radio-button" type="radio" id="one-way" name="tipo-de-vuelo" value="one-way">
+                    <label for="one-way">Viaje de Ida</label>                    
+                </div>
+                <div>
+                    <a href="">Buscar más opciones <i></i></a>
+                </div>
+                <input type="submit" value="Registrar Vuelo!">
+            </form>
+            
+        </section>
+    </main>
+</body>
+</html>
